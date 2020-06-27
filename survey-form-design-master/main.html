@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Survey-Form</title>
+
+        <link rel="stylesheet" href="style.css">
+       <script src="app.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <main id="main">
+    <header id="header">
+    <h1 id="title" style="text-align: center;" >Employee Benefits Survey Form</h1>
+    <p id="description" style="text-align: center;">Please take a few minutes to complete this brief survey about our current employee benefits offerings.</p>
+</header>
+<br>
+    <form id="survey-form">
+    <label>Name : <input type="text" id="name" required placeholder="Enter your name"></label>
+    <br><br>
+    <div id="checkbox">
+        <label>Gender :</label>
+        <input required type="checkbox" value="male" id="male"><label for="male">Male</label>
+        <input required type="checkbox" value="female" id="female"><label for="female">Female</label>
+        <input required type="checkbox" value="other" id="other"><label for="other">Other</label>
+    </div>
+
+    <br><br>
+    <label for="email">E-mail : <input type="email" id="email" required placeholder="Enter your email ID"></label>
+    <br><br>
+
+    <label for="number">Phone Number : <input type="number" name="number" id="number" required placeholder="Enter your Phone No." maxlength="10"></label>
+<div id="radio-form">
+    <p>
+        Which benefit option is most important to you?
+    </p>
+    <input required type="radio" name="user-click" class="radio-f" value="Medical"><label>Medical</label>
+    <input required type="radio" name="user-click" class="radio-f" value="life"><label>Life</label>
+    <input required type="radio" name="user-click" class="radio-f" value="short-term"><label>Short-term Disability</label>
+    <input required type="radio" name="user-click" class="radio-f" value="long-term"><label>Long-term Disability</label>
+    <input required type="radio" name="user-click" class="radio-f" value="retirement"><label>Retirement</label>
+</div>
+
+<div id="dropdown">
+    <p>
+        How would you rate the sick day policy?
+    </p>
+    <select id="most-like" name="mostLike" class="form-control" required>
+      <option disabled selected value>Select an option</option>
+      <option value="extremely">Extremely Fair</option>
+      <option value="veryfair">Very Fair</option>
+      <option value="fair">Fair</option>
+      <option value="slightfair">Slightly Fair</option>
+      <option value="notfair">Not Fair</option>
+    </select>
+  </div>
+
+<p>
+    Do you have any other feedback/suggestions regarding your employee benefits?(Optional)
+</p>
+<textarea name="comments" id="comment" cols="50" rows="10" placeholder="Enter your comment here..."></textarea>
+<br><br>
+<input type="submit" value="submit" id="submit">
+</form>
+</main>
+</body>    
+</html>

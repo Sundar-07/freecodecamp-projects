@@ -1,0 +1,53 @@
+html{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    background-color: rgb(81, 46, 95 );
+    color: #F5F5F5;
+    
+}
+#header{
+    background-color: black;
+}
+form { 
+    width: 900px;
+    margin: 0 auto;
+    line-height: 26px;
+  
+    }
+#submit{
+    display: block;
+    width: 20%;
+    padding: 0.75rem;
+    background: #FFD700;
+    color: #000000;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.comment{
+    resize: vertical;
+}
+input select{
+    min-width: 15px;
+    min-height: 13px;
+}
+p{
+margin-top: 35px;
+}
+select{
+    width: 180px;
+    height: 25px;
+}
+#name,#number,#email{
+    height: 20px;
+    width: 150px;
+}
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+    #survey-form{
+        width: 100%;
+    }
+  }

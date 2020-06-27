@@ -1,0 +1,66 @@
+html{
+    font-family: 'Poppins', sans-serif,Arial, Helvetica;
+    background-color: black;
+    overflow: auto;
+}
+@media only screen and (max-width: 400px) {
+    nav{
+        display: none;
+        width: 100%;
+    }
+  
+  }
+header{
+max-width: 100%;
+display: flex;
+background-color: #543864;
+}
+
+
+#header-img{
+    width: 230px;
+}
+a{
+    color: white;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+nav{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#video{
+    margin-top: 50px;
+    padding: 50px;
+    background-color:#ffbd69;
+    text-align: center;
+}
+form{
+    color: white;
+}
+#form{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    padding: 10px;
+    font-size: medium;
+    font-weight: bolder;
+}
+.hire-img{
+    background-image: url('https://image.freepik.com/free-vector/we-are-hiring-recruitment-concept_25147-47.jpg');
+    height: 500px;
+    margin: 20px;
+    
+}
+#con-list{
+    display: grid;
+    margin-right: 900px;
+}
